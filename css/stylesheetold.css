@@ -1,0 +1,133 @@
+@charset "utf-8"
+@import
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
+
+
+
+.wrap {
+	border: solid 1px #bf3826;
+	background-color: #bf3826;
+	top: 0;
+	width: 1360px;
+	height: auto;
+    margin: 0 auto -80px; /* footer height + space */
+    min-height: 100%;
+    padding: 0 0 80px; /* footer height + space */
+    box-sizing: border-box;
+    overflow: auto;
+    position: absolute;
+}
+
+body {
+	padding: 0;
+	margin: 100px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	background-color: #a13030;
+	display: table-cell;
+    vertical-align: middle;
+    float: center;
+}
+header {
+	font-weight: 900;
+	z-index: 2;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #a13030; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    transition: 0.5s;
+    margin-top:55px;
+    float: left;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+#content {
+    display: table;
+    margin: auto;
+}
+
+
+.row1 {
+    display: block;
+    margin: 0 auto;
+    padding: 0 80px;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	background-color: white;
+	display: table-cell;
+    vertical-align: middle;
+    float: center;
+}
+
+section.row1 aside {
+	width: 100%;
+	float: right;
+	text-align: left;
+}
+
+.row2 {
+    display: block;
+    margin: 0 auto;
+    padding: 0 80px;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	background-color: white;
+	display: table-cell;
+    vertical-align: middle;
+    float: center;
+}
+
+section.row2 aside {
+	width:100%;
+	float: right;
+	text-align: left;
+}
+
+.row3 {
+    display: table;
+    margin: 0 auto;
+    padding: 0 80px;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	background-color: white;
+	display: table-cell;
+    vertical-align: middle;
+    float: center;
+}
+
+section.row3 aside {
+	width:100%;
+	float: right;
+	text-align: left;
+}
+
+section::after {
+	content: '';
+	display: block;
+	clear: both;
+}

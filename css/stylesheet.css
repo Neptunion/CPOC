@@ -1,0 +1,147 @@
+@charset "utf-8"
+@import
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
+
+.column {
+    margin-left: auto;
+    float: left;
+    width: 50%;
+}
+
+.first{
+    margin-left:12.445095168374817vw;
+}
+
+h1 {
+    font-size: 1.8vw
+}
+
+.content {
+    background-color: white;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1.5vw;
+    text-align: left;
+    height: 100%;
+    min-height: 100%;
+    zoom: 1;
+}
+
+img {
+    max-width: 33vw;
+    max-height: 22vw;
+}
+
+body {
+    padding: 0;
+    margin: 7.3vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9vw;
+    line-height: auto;
+    background-color: #a13030;
+    display: table-cell;
+    vertical-align: middle;
+    float: center;
+    width: 100%;
+}
+
+.wrap {
+    border: solid 1px #de2910;
+    background-color: #de2910;
+    top: 0;
+    height: auto;
+    margin: 0 auto -7.3vw; /* footer height + space */
+    min-height: 100%;
+    box-sizing: border-box;
+    padding: 0 0 2vw; /* footer height + space */
+    overflow: auto;
+    position: absolute;
+}
+
+.lightunder{
+	background-color: #de5e4e
+	margin-top:5em;
+	top: 0;
+	position: absolute;
+	min-height: 100%;
+}
+
+
+header {
+	font-weight: 900;
+	z-index: 2;
+    line-height: auto;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    color: #ffdf00;
+}
+
+
+
+.under {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 12vw; /* Set the width of the sidebar */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #b33424; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden;
+    padding-top: 1.26em;
+    transition: 0.5s;
+    margin-top:4.55vw;
+    float: left;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 12vw; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #b33424; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 1.26em;
+    transition: 0.5s;
+    margin-top:4.55vw;
+    float: left;
+}
+
+
+.sidenav a {
+    padding: .500em .500em .500em .5em;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #fff6bf;
+    display: block;
+    transition: 0.3s;
+    line-height: 1.125em
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.sidenav a:hover {
+    color: #ffdf80;
+}
+
+
+
+#No {
+    padding: 0;
+    margin: 6.25em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18vw;
+    line-height: auto;
+    display: table-cell;
+    vertical-align: middle;
+    float: center;
+    width: 100%;
+}
+
+footer {
+    margin-left:12.445095168374817vw;
+}

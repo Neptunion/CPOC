@@ -1,0 +1,89 @@
+@charset "utf-8"
+@import
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
+
+
+
+.wrap {
+	border: solid 1px #bf3826;
+	background-color: #bf3826;
+	top: 0;
+	width: 1360px;
+	height: auto;
+    margin: 0 auto -80px; /* footer height + space */
+    min-height: 100%;
+    padding: 0 0 80px; /* footer height + space */
+    box-sizing: border-box;
+    overflow: auto;
+    position: absolute;
+}
+
+body {
+	padding: 0;
+	margin: 6.25em;
+	font-family: 'Roboto', sans-serif;
+	font-size: .8em;
+	line-height: 1.3em;
+	background-color: #a13030;
+	display: table-cell;
+    vertical-align: middle;
+    float: center;
+    width: 100%;
+}
+header {
+	font-weight: 900;
+	z-index: 2;
+}
+
+.under {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 12vw; /* Set the width of the sidebar */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #a13030; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 1.26em;
+    transition: 0.5s;
+    margin-top:4em;
+    float: left;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 12vw; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #a13030; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 1.26em;
+    transition: 0.5s;
+    margin-top:4em;
+    float: left;
+}
+
+
+.sidenav a {
+    padding: .500em .500em .500em .5em;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    line-height: 18px;
+}
+
+.content {
+    background-color: white;
+    margin-left:12.445095168374817vw;
+    padding-left: 0.5vw;
+    padding-top: .15vw;
+    width: 86.9vw;
+}
+
