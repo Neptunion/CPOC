@@ -36,7 +36,7 @@ img {
 body {
     padding: 0;
     margin: 7.3vw;
-    font-family: 'Helvetica'
+    font-family: 'Roboto', sans-serif;
     font-size: .9vw;
     line-height: auto;
     background-color: #a13030;
