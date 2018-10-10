@@ -2,7 +2,6 @@
 @import
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
 
-
 .column {
     margin-left: auto;
     float: left;
@@ -13,8 +12,12 @@
     margin-left:12.445095168374817vw;
 }
 
+.row { 
+    margin-top: 64px;
+}
+
 h1 {
-    font-size: 1.8vw
+    font-size: 25px
 }
 
 .content {
@@ -28,6 +31,8 @@ h1 {
     zoom: 1;
 }
 
+
+
 img {
     max-width: 33vw;
     max-height: 22vw;
@@ -37,7 +42,7 @@ body {
     padding: 0;
     margin: 7.3vw;
     font-family: 'Roboto', sans-serif;
-    font-size: .9vw;
+    font-size: 13px;
     line-height: auto;
     background-color: #a13030;
     display: table-cell;
@@ -51,7 +56,7 @@ body {
     background-color: #de2910;
     top: 0;
     height: auto;
-    margin: 0 auto -7.3vw; /* footer height + space */
+    margin: 0 auto -2.65vw; /* footer height + space */
     min-height: 100%;
     box-sizing: border-box;
     padding: 0 0 2vw; /* footer height + space */
@@ -75,17 +80,19 @@ header {
     padding-left: 0.5vw;
     padding-right: 0.5vw;
     color: #ffdf00;
+    position: absolute;
+    background-color: #de2910
 }
 
 
 
 .under {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 12vw; /* Set the width of the sidebar */
     position: absolute; /* Fixed Sidebar (stay in place on scroll) */
     top: 0;
     left: 0;
     bottom: 0;
+    padding-bottom: 20vw;
     background-color: #b33424; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     overflow-y: hidden;
@@ -113,13 +120,12 @@ header {
 
 
 .sidenav a {
-    padding: .500em .500em .500em .5em;
+    padding: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: 1.5vw;
     color: #fff6bf;
     display: block;
-    transition: 0.3s;
-    line-height: 1.125em
+    line-height: 18px;
     padding-left: auto;
     padding-right: auto;
 }
@@ -144,4 +150,5 @@ header {
 
 footer {
     margin-left:12.445095168374817vw;
+    color: white;
 }

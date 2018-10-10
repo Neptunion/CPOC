@@ -44,13 +44,14 @@ h1 {
 body {
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.8vw;
+	font-size: 13px;
 	line-height: auto;
 	background-color: #a13030;
     float: center;
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
 }
 header {
 	font-weight: 900;
@@ -58,7 +59,9 @@ header {
     line-height: auto;
 }
 
-
+.row {
+    margin-top: 14vw;
+}
 
 .under {
     display: inline;
@@ -77,12 +80,13 @@ header {
     height: 8vw; /* Full-height: remove this if you want "auto" height */
     width: 100%;
     position: absolute; /* Fixed Sidebar (stay in place on scroll) */
-    background-color: #b33424; /* Black */
+    background-color: #b33424;
     max-width: 100%;
     overflow-x: hidden; /* Disable horizontal scroll */
     margin-top:5em;
-    margin-left: 13vw;
     float: center;
+    margin-bottom: 5em;
+    text-orientation: center;
 }
 
 
@@ -129,4 +133,19 @@ img {
 
 footer {
     margin-left: 0;
+}
+
+.under {
+    height: 0%; /* Full-height: remove this if you want "auto" height */
+    width: 0; /* Set the width of the sidebar */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #b33424; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden;
+    transition: 0.5s;
+    margin-top:6vw;
+    float: left;
 }
