@@ -14,6 +14,7 @@
 
 .row { 
     margin-top: 64px;
+    display: inline-block;
 }
 
 h1 {
@@ -53,7 +54,7 @@ body {
 
 .wrap {
     border: solid 1px #de2910;
-    background-color: #de2910;
+    background-color: white;
     top: 0;
     height: auto;
     margin: 0 auto -2.65vw; /* footer height + space */
@@ -65,41 +66,29 @@ body {
 }
 
 .lightunder{
-	background-color: #de5e4e
-	margin-top:5em;
-	top: 0;
-	position: absolute;
-	min-height: 100%;
+    background-color: #de5e4e
+    margin-top:5em;
+    top: 0;
+    position: absolute;
+    min-height: 100%;
 }
 
 
-header {
-	font-weight: 900;
-	z-index: 2;
+#topbar {
+    font-weight: 900;
+    z-index: 2;
     line-height: auto;
     padding-left: 0.5vw;
-    padding-right: 0.5vw;
     color: #ffdf00;
     position: absolute;
     background-color: #de2910
 }
 
-
-
-.under {
-    width: 12vw; /* Set the width of the sidebar */
-    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
-    top: 0;
-    left: 0;
-    bottom: 0;
-    padding-bottom: 20vw;
-    background-color: #b33424; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    overflow-y: hidden;
-    padding-top: 1.26em;
-    transition: 0.5s;
-    margin-top:4.55vw;
-    float: left;
+#under {
+    padding-right: 100%;
+    padding-bottom: 64px;
+    position: absolute;
+    background-color: #de2910
 }
 
 .sidenav {
@@ -118,6 +107,9 @@ header {
     float: left;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 .sidenav a {
     padding: 8px 8px 8px 8px;
