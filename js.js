@@ -21,7 +21,7 @@ window.onscroll = function() {
     if (currentScrollPos < h) window.scrollTo(0, h+1);
   }
   prevScrollpos = currentScrollPos;
-  document.getElementById("scroll").innerHTML = currentScrollPos;
+  //document.getElementById("scroll").innerHTML = currentScrollPos;
   document.getElementById("under").clientHeight = h;
   
 }
